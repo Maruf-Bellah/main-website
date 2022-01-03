@@ -1,0 +1,75 @@
+body{
+     font-family: 'IBM Plex Sans Hebrew', sans-serif;
+     margin: 0;
+     font-size: 18px;
+     font-weight: 500;
+}
+.first-sectoin{
+     display: flex;
+     background-image: url(img/top-banner.png);
+     background-repeat: no-repeat;
+     margin-bottom:150px;
+}
+.first-div{
+     width: 50%;
+     padding-left: 100px;
+     padding-right: 50px;
+}
+.first-div img{
+     width: 100%;
+}
+h1{
+     font-size: 
+     45px;
+}
+.button {
+     padding: 10px 40px;
+     background-image: linear-gradient(orange, tomato);
+     border-radius: 5px;
+     font-weight: 600;
+     color: white;
+     
+}
+a{
+     text-decoration: none;
+}
+.orange{
+     color: orange;
+}
+.second-section{
+     display: flex;
+     background-image: url(img/dream-bg.png);
+     background-repeat: no-repeat;
+     background-position: right;
+     margin-bottom: 150px;
+}
+.fourt-section{
+     display: flex;
+     background-image: url(img/exp-bg.png);
+     background-repeat: no-repeat;
+     background-position: left center;
+}
+.second-div{
+     width: 45%;
+     padding: 30px;
+     margin: 40px;
+     box-shadow: 5px 5px 15px gray, -5px -5px 15px gray;
+     margin-bottom: 150px;
+}
+h2{
+     font-size: 40px;
+}
+#e-one{
+     border-left: 7px solid;
+     border-image: linear-gradient(blue,cyan);
+     border-image-slice: 1;
+}
+#e-two{
+     border-left: 7px solid;
+     border-image: linear-gradient(orange,tomato);
+     border-image-slice: 1;
+
+}
+footer{
+     text-align: center;
+}
